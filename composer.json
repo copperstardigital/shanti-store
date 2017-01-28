@@ -9,6 +9,7 @@
         "facebook/graph-sdk": "^5.4",
         "illuminate/notifications": "5.4.*",
         "illuminate/support": "~5.1",
+        "laravel-notification-channels/facebook-poster": "dev-master",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0"
     },

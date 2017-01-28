@@ -43,7 +43,7 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+            <a class="navbar-brand page-scroll" href="#page-top">2nd Chances</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,7 +56,7 @@
                     <a class="page-scroll" href="#services">Services</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    <a class="page-scroll" href="#portfolio">Store</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
@@ -150,10 +150,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                Furniture
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Bookcases
                             </div>
                         </div>
                     </div>
@@ -165,10 +165,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                Clothing
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Wide Selection
                             </div>
                         </div>
                     </div>
@@ -180,10 +180,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                Knick-knacks
                             </div>
                             <div class="project-name">
-                                Project Name
+                                One of everything
                             </div>
                         </div>
                     </div>
@@ -195,10 +195,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                Furniture
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Hutches and Chairs
                             </div>
                         </div>
                     </div>
@@ -210,10 +210,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                Furniture
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Couches
                             </div>
                         </div>
                     </div>
@@ -225,10 +225,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                Books
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Lots of Titles
                             </div>
                         </div>
                     </div>

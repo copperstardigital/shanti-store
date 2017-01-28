@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fa253fb09b0d5b5ebf5b7111e2928606",
-    "content-hash": "0ded301c31cf833460bd2d679887f685",
+    "hash": "8e13159d7d3360a08b02338fd8b2290c",
+    "content-hash": "29513bcd8ca39e2b20ec9ec7003c0928",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -293,6 +293,49 @@
                 }
             ],
             "time": "2015-04-20 18:58:01"
+        },
+        {
+            "name": "laravel-notification-channels/facebook-poster",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-notification-channels/facebook-poster.git",
+                "reference": "876720e620f9bd7c7a1557b656e2f682eaae376e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-notification-channels/facebook-poster/zipball/876720e620f9bd7c7a1557b656e2f682eaae376e",
+                "reference": "876720e620f9bd7c7a1557b656e2f682eaae376e",
+                "shasum": ""
+            },
+            "require": {
+                "facebook/graph-sdk": "^5.4",
+                "illuminate/notifications": "5.4.*",
+                "illuminate/support": "~5.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.5",
+                "orchestra/testbench": "3.4.*",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NotificationChannels\\FacebookPoster\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmed Ashraf",
+                    "email": "ahmed29329@gmail.com"
+                }
+            ],
+            "description": "Use notification to create posts on Facebook",
+            "time": "2017-01-25 02:44:23"
         },
         {
             "name": "laravel/framework",
@@ -3389,7 +3432,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "laravel-notification-channels/facebook-poster": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
