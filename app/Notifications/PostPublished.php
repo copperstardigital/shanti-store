@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Notifications\Blog;
+namespace App\Notifications;
 
 use App\Models\Post;
 use App\Models\User;

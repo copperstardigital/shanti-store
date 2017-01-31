@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Models\Post;
+use App\Notifications\PostPublished;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
@@ -48,10 +49,12 @@ class PostController extends Controller
 
         Validator::make($request->all(), $rules, $messages)->validate();
 
-        Post::create([
+        $post = Post::create([
             'headline' => $request->headline,
             'image'    => ''
         ]);
+
+        $post->notify(new PostPublished($post));
 
         return redirect('home');
     }
