@@ -83,6 +83,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
+                <img style="margin-bottom: 30px; width: 200px;" src="/img/logo.jpg" alt="Shanti logo" />
                 <h2 class="section-heading">We've got what you need!</h2>
                 <hr class="light">
                 <p class="text-faded">We receive items from La-Z-Boy, Pruitt's furniture, Terri's, Switch Consignment, Flip Consignment, Furniture Affair, iConsign, American Furniture Warehouse, Buffalo Exchange, Urban Exchange and also Poor Little Rich Girl. We offer free valley-wide pick-ups &mdash; from Anthem to Queen Creek, from Buckeye to Fountain Hills.</p>
