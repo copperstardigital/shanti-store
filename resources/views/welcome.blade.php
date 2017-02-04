@@ -85,11 +85,11 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">We've got what you need!</h2>
                 <hr class="light">
-                <p class="text-faded">We receive items from La-Z-Boy, Pruitt's furniture, Terri's, Switch Consignment, Flip Consignment, Furniture Affair, iConsign, American Furniture Warehouse, Buffalo Exchange, Urban Exchange and also Poor Little Rich Girl. We offer free valley wide pick-ups &mdash; from Anthem to Queen Creek, from Buckeye to Fountain Hills.</p>
+                <p class="text-faded">We receive items from La-Z-Boy, Pruitt's furniture, Terri's, Switch Consignment, Flip Consignment, Furniture Affair, iConsign, American Furniture Warehouse, Buffalo Exchange, Urban Exchange and also Poor Little Rich Girl. We offer free valley-wide pick-ups &mdash; from Anthem to Queen Creek, from Buckeye to Fountain Hills.</p>
 
                 <p class="text-faded">We need quality used furniture, kitchenware, clothing, tools, exercise equipment, sporting goods, patio, art and other d&eacute;cor. We accept appliances (working or not) and also take anything metal (large metal desks, other scrap items.)</p>
 
-                <p class="text-faded">We cannot accept used mattresses or box springs, water beds, large executive style desks, projection style or early model big-screen tvs, along anything else that is in disrepair, torn, stained, soiled or wet (been in the rain etc.) All accepted donations are at the driver's discretion.</p>
+                <p class="text-faded">We cannot accept used mattresses or box springs, water beds, large executive style desks, projection style or early model big-screen televisions.  We also cannot accept anything else that is in disrepair, torn, stained, soiled or wet. All accepted donations are at the driver's discretion.</p>
 
                 <p class="text-faded">Tax receipts are offered for all donations.</p>
                 <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
