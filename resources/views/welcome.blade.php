@@ -23,7 +23,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/creative.css?={{ time() }}" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -270,6 +270,21 @@
 
         </div>
 
+        <hr />
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="text-center">
+                    <a href="http://www.copperstardigital.com" target="_blank">
+                        <img class="csd" src="/img/csd-blk.png" alt="Copper Star Digital" />
+                    </a>
+
+                    <p><small>Website Development by Copper Star Digital, LLC, a digital services agency.  <br />480.359.4WEB &bull; <a href="mailto:info@copperstardigital.com">info@copperstardigital.com</a><small></p>
+
+                    <p><small>&copy; {{ date('Y') }}, Phoenix Shanti Group.  All rights reserved.</small></p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

@@ -421,3 +421,7 @@ body {
   background-color: #511da3;
   border-color: #511da3;
 }
+
+img.csd {
+  width: 40%;
+}
