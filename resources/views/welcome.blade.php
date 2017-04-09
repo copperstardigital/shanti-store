@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Shanti 2nd Chances</title>
+    <title>Home :: Shanti 2nd Chances</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,6 +25,24 @@
     <!-- Theme CSS -->
     <link href="css/creative.css?={{ time() }}" rel="stylesheet">
 
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,6 +53,8 @@
 </head>
 
 <body id="page-top">
+
+@include('partials.tracking-code')
 
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -57,6 +77,9 @@
                 </li>
                 <li>
                     <a class="page-scroll" href="#portfolio">Store</a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#myModal">Donate</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
@@ -251,8 +274,8 @@
                     <p>602-283-0100</p>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:shantistore@yahoo.com">shantistore@yahoo.com</a></p>
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i><br />
+                    <a href="#" data-target="#myModal" role="button" class="btn btn-primary btn-lg" data-toggle="modal">Donate Now</a>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <p>4015 N 16th Street Suite E-F<br/>
@@ -288,6 +311,40 @@
     </div>
 </section>
 
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Donate Now!</h4>
+            </div>
+            <div class="modal-body clearfix">
+                <form id="donate" method="POST">
+                    {{ csrf_field() }}
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" name="email" id="email" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="text" name="phone" id="phone" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" name="message" rows="7" id="message"></textarea>
+                    </div>
+
+                    <button type="submit" id="submit" class="btn btn-primary pull-right">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- jQuery -->
 <script src="vendor/jquery/jquery.min.js"></script>
 
@@ -301,6 +358,18 @@
 
 <!-- Theme JavaScript -->
 <script src="js/creative.min.js"></script>
+<script>
+    $(function(){
+        $('#submit').click(function(e){
+            e.preventDefault();
+             $.post('/donate',
+                 $('#donate').serialize(),
+                 function(data, status, xhr){
+                     window.location = '/donate/thank-you';
+                 });
+        });
+    });
+</script>
 
 </body>
 

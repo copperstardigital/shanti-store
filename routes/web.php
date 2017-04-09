@@ -19,4 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::resource('posts', 'Admin\PostController');
+
+// Route::resource('posts', 'Admin\PostController');
+Route::post('donate', 'DonateController@store');
+Route::get('donate/thank-you', 'DonateController@index');
