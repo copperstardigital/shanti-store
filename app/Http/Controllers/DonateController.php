@@ -38,7 +38,7 @@ class DonateController extends Controller
     public function store(Request $request)
     {
         $data = request()->all();
-        Mail::to('scotthummel@icloud.com')->send(new DonationMailer($data));
+        Mail::to('shantistore@yahoo.com')->send(new DonationMailer($data));
     }
 
     /**
