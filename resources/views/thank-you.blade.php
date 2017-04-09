@@ -71,7 +71,7 @@
     <div class="container">
         <div class="row" style="margin-top: 20px;">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <img style="margin-bottom: 30px; width: 200px;" src="/img/logo.jpg" alt="Shanti logo" />
+                <img style="margin-bottom: 30px; width: 200px;" src="/img/shanti_logo.png" alt="Shanti logo" />
                 <h2 class="section-heading">Thank you for contacting Shanti 2nd Chances!</h2>
                 <hr >
                 <p>We have received your message. A 2nd Chances representative will be in touch with you shortly to arrange for pickup wherever you are in the Valley.</p>
