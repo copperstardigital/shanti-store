@@ -288,7 +288,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <iframe src="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;channel=fflb&amp;q=4015+N+16th+Street+Suite+E-F++Phoenix+AZ,+85016&amp;ie=UTF8&amp;hq=&amp;hnear=4015+N+16th+St,+Phoenix,+Arizona+85016&amp;gl=us&amp;t=m&amp;ll=33.504974,-112.044582&amp;spn=0.025049,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6317.426335643122!2d-112.05095967576281!3d33.4944710578979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0d7fc9f202e9%3A0x9f0be06bb80d0a45!2sShanti&#39;s+Second+Chances!5e0!3m2!1sen!2sus!4v1491764679736" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
 
         </div>
