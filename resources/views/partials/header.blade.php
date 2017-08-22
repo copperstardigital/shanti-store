@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Shanti 2nd Chances is a Phoenix-based thrift store with high-quality inventory. Our sales directly benefit those living with and those affected by HIV/AIDS through our parent, Phoenix Shanti Group.">
     <meta name="author" content="">
 
     <title>@yield('page_title')</title>
